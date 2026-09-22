@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Virtual environment
+venv/
+
+# Hugging Face model weights (~800 MB) — downloaded on first run
+hf_cache/
+
+# Decision certificates & install logs — runtime artifacts
+logs/
+pip_tmp/
+
+# Secrets — never commit
+.env
+.env.*
+*.pem
+*.key
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,4 @@
+# Core decision stack (verified versions, 2026-09-23)
+laya==0.3.6
+typesafe-sdk==0.7.1
+torch>=2.4
