@@ -1,10 +1,15 @@
 # ⚖️ GOD-LLM Decisions
 
+![Stars](https://img.shields.io/github/stars/surajvs2710-stack/god-llm-decisions?style=flat-square)
+![License](https://img.shields.io/github/license/surajvs2710-stack/god-llm-decisions?style=flat-square)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue?style=flat-square)
+![Topics](https://img.shields.io/github/topics/surajvs2710-stack/god-llm-decisions?style=flat-square)
+
 **One question. Two minds. One auditable verdict.**
 
 GOD-LLM Decisions fuses two System-1 decision models — **Laya** (open-source, runs locally) and **Jev** (TypeSafe AI's commercial API) — into a single decision engine for typed `choice`, `score`, and `noul` (yes/no) questions. Every question is asked to **both** models with identical wording, their probability distributions are fused with a documented confidence-weighted rule, disagreements are escalated to a local adjudicator, and the whole thing is written to an append-only JSON decision log.
 
-No black box. No single point of failure. Every number in every certificate traces back to a model response or a clock.
+No black box. No single point of failure. Every number in every decision record traces back to a model response or a clock.
 
 ---
 
